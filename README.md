@@ -93,13 +93,5 @@ The notebook works with simulation data alone and adds real results when supplie
 Minimum distance to each planned corner is a descriptive metric, not proof of true
 physical accuracy; encoder odometry cannot detect wheel slip by itself.
 
-## Validation and source
 
-The simulator project opened and ran to completion in TRIK's 2026.3 runner.
-The bundled log contains the resulting trajectory; it is not a synthetic Python log.
-Both projects have checked object references and required QRS property metadata.
-The real project has not been run on physical hardware.
 
-Structure adapted from https://github.com/fleikey/robotics-cs413/tree/main/Week7
-Source revision: f2e10b3f1b66fae16abae6ec2778bf4ade7ce9c9
-The route, pen handling and controller changes are for 50; the source draws 54.
